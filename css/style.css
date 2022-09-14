@@ -67,6 +67,7 @@ ul{
     text-align: center;
     margin-top: 20px auto;
     padding: 20px 0;
+    margin-top: 20px;
 }
 .right_content-title{
  font-weight: 700;
@@ -90,6 +91,9 @@ ul{
 }
 footer{
     padding: 30px 0;
+}
+footer{
+    border-top: 1px solid #000;
 }
 .overlay{
     position: fixed;
