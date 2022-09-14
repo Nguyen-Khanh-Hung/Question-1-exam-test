@@ -34,6 +34,12 @@ ul{
     padding-left: 16px;
 
 }
+.nav-item:hover{
+    background-color: #5C5C5C;
+}
+.nav-item:hover .nav-link{
+    color: #fff;
+}
 .nav-link{
     text-decoration: none;
     color: #AAAAAA;
