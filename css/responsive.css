@@ -28,11 +28,14 @@
         display: block;
     }
     .right_logo{
-        text-align: center;
+    text-align: center;
     margin-top: 20px;
     display: flex;
     justify-content: space-between!important;
  }
+    .right_logo img{
+        width: 60%;
+    }
 }
 /* Mobile */
 @media screen and (max-width: 767px){
@@ -48,9 +51,11 @@
         display: block;
     }
     .right_logo{
-
     margin-top: 20px;
     display: flex;
     justify-content: space-between!important;
+    }
+    .right_logo img{
+        width: 60%;
     }
 }
