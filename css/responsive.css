@@ -1,7 +1,16 @@
-
+.nav-list-resonsive{
+    position: fixed;
+    background-color: #000;
+    height: 100vh;
+    width: 240px;
+    display: none;
+}
+.nav-list-resonsive.active{
+    display: block;
+}
 /* PC*/
 @media screen and (min-width: 1024px){
-   
+    
 }
 /* Tablet*/ 
 @media screen and (min-width: 768px) and (max-width: 1023px){
