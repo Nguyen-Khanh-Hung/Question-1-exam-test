@@ -15,6 +15,15 @@
         padding: 10px;
         margin-left: unset;
     }
+    .btn-bars{
+        display: block;
+    }
+    .right_logo{
+        text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between!important;
+ }
 }
 /* Mobile */
 @media screen and (max-width: 767px){
@@ -24,8 +33,15 @@
     .right {
         width: 100%;
         padding: 10px;
-
         margin-left: unset;
+    }
+    .btn-bars{
+        display: block;
+    }
+    .right_logo{
 
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between!important;
     }
 }

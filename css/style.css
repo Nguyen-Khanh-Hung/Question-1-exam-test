@@ -51,8 +51,15 @@ ul{
 .right_logo{
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.btn-bars{
+    font-size: 2.6rem;
+    margin-left: 50px;
+    display: none;
+}
 .right_content{
     background-color: #EFEFEF;
     width: 100%;
@@ -82,4 +89,14 @@ ul{
 }
 footer{
     padding: 30px 0;
+}
+.overlay{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.05);
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
 }
